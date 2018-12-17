@@ -119,34 +119,3 @@ print()
 if stack == []:
 	print("---- Compile Successful ----")
 
-
-
-
-
-
-
-"""
-pgm -> line pgm 
-pgm -> EOF
-line -> line_num stmt
-stmt -> asgmnt 
-stmt -> if 
-stmt -> print 
-stmt -> goto 
-stmt -> stop
-asgmnt -> id = exp
-exp -> term exp'
-exp' -> + term 
-exp' -> - term 
-exp' -> ''
-term -> id 
-term -> const
-if -> IF cond line_num
-cond -> term cond'
-cond' -> < term 
-cond' -> = term
-print -> PRINT id
-goto -> GOTO line_num
-stop -> STOP
-"""
-
